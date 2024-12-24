@@ -110,9 +110,9 @@ section{
     padding: 10rem 15%;
 }
 
-#typing-effect{
+/* #typing-effect{
 
-}
+} */
 .home{
     display: flex;
     align-items: center;
@@ -590,7 +590,37 @@ transform: scale(1.02);
    .contact form{
     flex-direction: column;
    }
+
+   .home-content p{
+    width: 50vh;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
 }
+
+.about-content p{
+    width: 50vh;
+    font-size: 1.2em;
+    line-height: 2.5rem;
+    margin-bottom:2rem;
+}
+}
+
+
+/* @media(max-width: 450px) {
+    html{
+      font-size: 50%;
+    }
+    
+    .home-content p{
+        width: 50vh;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+  
+   }
+   */
 
 
 /* Default state for sections (hidden) */
